@@ -114,7 +114,6 @@ st = STree.STree("abc defghabcx xxabc")
 a = ["xxxabcdxxx", "xxxadsaab", "ytyxxxsabrew", "qxxxqqabqw", "aaabxxx"]
 
 #Driver Code:
-print("Given List: ",a)
 print("\n")
 print("....Pattern Searching....")
 c=str(input("Enter String Value for pattern search:"))
@@ -124,6 +123,7 @@ print("...Longest repeated sub-String...")
 b=str(input("enter string value for longest repeated substring:"))
 print("Index Is: ",st.find_all(b))
 print('\n')
+print("Given List: ",a)
 st = STree.STree(a)
 print("...Longest Common Substring...")
 print(st.lcs())
