@@ -50,8 +50,8 @@ class SuffixTree:
                     self.nodes[n].ch[x2] = n2
                     break # continue down the tree
                 j = j + 1
-            i = i + j   # advance past part in common
-            n = n2      # continue down the tree
+            i = i + j
+            n = n2
  
     def visualize(self):
         if len(self.nodes) == 0:
@@ -113,7 +113,7 @@ def get_longest_palindromes(strng):
 st = STree.STree("abc defghabcx xxabc")
 a = ["xxxabcdxxx", "xxxadsaab", "ytyxxxsabrew", "qxxxqqabqw", "aaabxxx"]
 
-#driver code
+#Driver Code:
 print("Given List: ",a)
 print("\n")
 print("....Pattern Searching....")
